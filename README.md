@@ -47,7 +47,7 @@ Currently, <i>ptrace_do</i> will only work on x86_64 Linux. Because it uses the 
 	ptrace_do_syscall(target, __NR_close, fd, 0, 0, 0, 0, 0);
 	ptrace_do_cleanup(target);
 
-For a more advanced usage, please examine my [shelljack](https://github.com/emptymonkey/shelljack) code, for which this library was written to accomidate.
+For a more advanced usage, please examine my [shelljack](https://github.com/emptymonkey/shelljack) code, for which this library was written to accommodate.
 
 ## Documentation ##
 
